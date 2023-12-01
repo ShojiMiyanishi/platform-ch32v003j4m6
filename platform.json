@@ -1,0 +1,58 @@
+{
+  "name": "ch32v",
+  "version": "0.1.0",
+  "title": "WCH CH32V003J4M6",
+  "description": "CH32V003J3M6 is industrial-grade general-purpose microcontrollers designed based on QingKe 32-bit RISC-V.",
+  "homepage": "https://www.wch.cn/",
+  "license": "Apache-2.0",
+  "keywords": [
+    "dev-platform",
+    "WCH",
+    "RISC-V"
+  ],
+  "engines": {
+    "platformio": "^6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Community-PIO-CH32V/platform-ch32v"
+  },
+  "frameworks": {
+    "framework-wch-noneos-3j4m6-sdk": {
+      "type": "framework",
+      "optional": true,
+      "owner": "platformio",
+      "version": "https://github.com/ShojiMiyanishi/framework-ch32v03j4m6-noneos-sdk.git"
+    }
+  },
+  "packages": {
+    "framework-wch-noneos-3j4m6-sdk": {
+      "type": "framework",
+      "optional": true,
+      "owner": "platformio",
+      "version": "https://github.com/ShojiMiyanishi/framework-ch32v03j4m6-noneos-sdk.git"
+    },
+    "toolchain-riscv": {
+      "type": "toolchain",
+      "owner": "platformio",
+      "version": "https://github.com/Community-PIO-CH32V/toolchain-riscv-windows.git"
+    },
+    "tool-openocd-riscv-wch": {
+      "type": "uploader",
+      "owner": "community-ch32v",
+      "version": "~2.1100.230329"
+    },
+    "tool-wchisp": {
+      "type": "uploader",
+      "owner": "community-ch32v",
+      "version": "~0.22.230228",
+      "optional": true
+    },
+    "tool-minichlink": {
+      "type": "uploader",
+      "owner": "community-ch32v",
+      "version": "https://github.com/Community-PIO-CH32V/tool-minichlink.git",
+      "optional": true
+    }
+  }
+}
