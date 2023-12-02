@@ -1,0 +1,75 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/omiya/project/ch32v003/platform-ch32v-develop/examples/blinky-arduino/include",
+                "/Users/omiya/project/ch32v003/platform-ch32v-develop/examples/blinky-arduino/src",
+                "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/cores/arduino",
+                "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/cores/arduino/avr",
+                "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/cores/arduino/ch32",
+                "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/cores/arduino/ch32/lib",
+                "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/USER",
+                "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/SRC/Core",
+                "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/SRC/Debug",
+                "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/SRC/Startup",
+                "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/SRC/Peripheral/inc",
+                "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/SRC/Peripheral/src",
+                "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/variants/CH32V00x/CH32V003F4",
+                "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/libraries/SPI/src",
+                "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/libraries/USBPD_SINK/src",
+                "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/omiya/project/ch32v003/platform-ch32v-develop/examples/blinky-arduino/include",
+                    "/Users/omiya/project/ch32v003/platform-ch32v-develop/examples/blinky-arduino/src",
+                    "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/cores/arduino",
+                    "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/cores/arduino/avr",
+                    "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/cores/arduino/ch32",
+                    "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/cores/arduino/ch32/lib",
+                    "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/USER",
+                    "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/SRC/Core",
+                    "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/SRC/Debug",
+                    "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/SRC/Startup",
+                    "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/SRC/Peripheral/inc",
+                    "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/SRC/Peripheral/src",
+                    "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/variants/CH32V00x/CH32V003F4",
+                    "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/libraries/SPI/src",
+                    "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/libraries/USBPD_SINK/src",
+                    "/Users/omiya/.platformio/packages/framework-arduino-openwch-ch32/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60111",
+                "CH32V003F4",
+                "CH32V00X",
+                "CH32V003",
+                "ARDUINO=10808",
+                "VARIANT_H=\"variant_CH32V003F4.h\"",
+                "CH32V00x",
+                "NDEBUG",
+                ""
+            ],
+            "cStandard": "gnu99",
+            "cppStandard": "gnu++14",
+            "compilerPath": "/Users/omiya/.platformio/packages/toolchain-riscv/bin/riscv-none-embed-gcc",
+            "compilerArgs": [
+                "-march=rv32ecxw",
+                "-mabi=ilp32e",
+                "-msmall-data-limit=8",
+                "-msave-restore",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

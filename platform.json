@@ -62,12 +62,6 @@
     }
   },
   "packages": {
-    "framework-wch-noneos-3j4m6-sdk": {
-      "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": "https://github.com/ShojiMiyanishi/framework-ch32v03j4m6-noneos-sdk.git"
-    },
     "framework-wch-noneos-sdk": {
       "type": "framework",
       "optional": true,
