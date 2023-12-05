@@ -13,7 +13,7 @@ else:
 # import default build settings
 env.SConscript("_bare.py")
 
-FRAMEWORK_DIR = platform.get_package_dir("framework-wch-noneos-sdk")
+FRAMEWORK_DIR = platform.get_package_dir("framework-wch-noneos-sdk-ch32v003j4m6")
 assert isdir(FRAMEWORK_DIR)
 
 # helper vars
