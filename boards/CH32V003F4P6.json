@@ -1,7 +1,13 @@
 {
   "build": {
+    "arduino": {
+      "openwch": {
+        "variant": "CH32V00x/CH32V003F4",
+        "variant_h": "variant_CH32V003F4.h"
+      }
+    },
     "f_cpu": "48000000L",
-    "extra_flags": "-DCH32V003A4 -DCH32V00X -DCH32V003",
+    "extra_flags": "-DCH32V003F4 -DCH32V00X -DCH32V003",
     "hwids": [
       [
         "0x1A86",
@@ -10,7 +16,7 @@
     ],
     "mabi": "ilp32e",
     "march": "rv32ecxw",
-    "mcu": "ch32v003a4m6",
+    "mcu": "ch32v003f4p6",
     "series": "ch32v003",
     "core": "ch32v003",
     "variant": "CH32V003"
@@ -26,7 +32,7 @@
     "noneos-sdk",
     "arduino"
   ],
-  "name": "Generic CH32V003A4M6",
+  "name": "CH32V003F4P6-EVT-R0",
   "upload": {
     "maximum_ram_size": 2048,
     "maximum_size": 16384,
@@ -37,6 +43,6 @@
     ],
     "protocol": "wch-link"
   },
-  "url": "http://www.wch-ic.com/products/CH32V003.html",
+  "url": "https://www.aliexpress.com/item/1005004895791296.html",
   "vendor": "W.CH"
 }

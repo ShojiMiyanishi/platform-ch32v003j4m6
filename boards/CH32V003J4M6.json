@@ -23,10 +23,11 @@
     "svd_path": "CH32V003xx.svd"
   },
   "frameworks": [
+    "noneos-sdk-3j4m6",
     "noneos-sdk",
     "arduino"
   ],
-  "name": "Generic CH32V003J4M6",
+  "name": "CH32V003J4M6",
   "upload": {
     "maximum_ram_size": 2048,
     "maximum_size": 16384,
