@@ -18,13 +18,6 @@
     "url": "https://github.com/ShojiMiyanishi/platform-ch32v003j4m6.git"
   },
   "frameworks": {
-    "noneos-sdk-ch32v003j4m6": {
-      "package": "framework-wch-noneos-sdk-ch32v003j4m6",
-      "script": "builder/frameworks/noneos_sdk.py",
-      "description": "The W.CH CH32Vxxx Standard Peripheral Library without OS",
-      "homepage": "https://github.com/ShojiMiyanishi/framework-ch32v03j4m6-noneos",
-      "title": "W.CH CH32Vxxx NoneOS SDK"
-    },
     "noneos-sdk": {
       "package": "framework-wch-noneos-sdk",
       "script": "builder/frameworks/noneos_sdk.py",
@@ -69,12 +62,6 @@
     }
   },
   "packages": {
-    "framework-wch-noneos-sdk-ch32v003j4m6": {
-      "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": "https://github.com/ShojiMiyanishi/framework-ch32v03j4m6-noneos-sdk.git"
-    },
     "framework-wch-noneos-sdk": {
       "type": "framework",
       "optional": true,
